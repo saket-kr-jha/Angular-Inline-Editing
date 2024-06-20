@@ -1,0 +1,12 @@
+h2{
+    text-align: center;
+}
+
+.parent{
+    text-align: center;
+    background-color: aqua;
+}
+.child{
+    text-align: center;
+    background-color: bisque;
+}

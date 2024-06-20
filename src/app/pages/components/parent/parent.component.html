@@ -1,0 +1,12 @@
+<h4>Hello from parent component</h4>
+<app-child #child [message]="parentMessage" (childEvent)="onChildEvent($event)"></app-child>
+
+{{message}}
+
+<button (click)="displayChild()">Display child data</button>
+
+<div>
+    {{childData}}
+</div>
+
+

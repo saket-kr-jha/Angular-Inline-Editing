@@ -24,8 +24,8 @@
                         </div> 
                     </td>
                     <td>{{user.username}}</td>
-                    <td>
-                        <div *ngIf="user.isEdit">
+                    <td [appEmailTooltip]="user.email"> 
+                        <div *ngIf="user.isEdit" >
                             <input type="text" [(ngModel)]="user.email" class="form-control"/>
                         </div>
                         <div *ngIf="!user.isEdit">
